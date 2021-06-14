@@ -26,12 +26,12 @@ struct MainTabView: View {
                     Text("Библиотека")
                 }
 
-            ProfileView()
-                .tabItem {
-                    Image("person")
-                        .renderingMode(.template)
-                    Text("Профиль")
-                }
+//            ProfileView()
+//                .tabItem {
+//                    Image("person")
+//                        .renderingMode(.template)
+//                    Text("Профиль")
+//                }
         }
         .accentColor(Color(.green1))
     }
