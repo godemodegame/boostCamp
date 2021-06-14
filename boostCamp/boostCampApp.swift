@@ -11,7 +11,11 @@ import SwiftUI
 struct boostCampApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if GithubService.login.count <= 0 {
+                LoginView()
+            } else {
+                MainTabView()
+            }
         }
     }
 }

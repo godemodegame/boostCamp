@@ -7,19 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C11A378026752137009E3198 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A377F26752137009E3198 /* CarouselView.swift */; };
+		C11A378626755029009E3198 /* MainProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A378526755029009E3198 /* MainProgress.swift */; };
+		C11A378926757E1B009E3198 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A378826757E1B009E3198 /* LibraryView.swift */; };
+		C11A378C26758087009E3198 /* BasicCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A378B26758087009E3198 /* BasicCollectionCell.swift */; };
+		C11A378F26765E1B009E3198 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A378E26765E1B009E3198 /* ProfileView.swift */; };
+		C11A37922676E580009E3198 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A37912676E580009E3198 /* StoryView.swift */; };
+		C11A3795267710F9009E3198 /* AuthPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A3794267710F9009E3198 /* AuthPickerView.swift */; };
 		C1E4978926740F8F003E63AA /* boostCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E4978826740F8F003E63AA /* boostCampApp.swift */; };
-		C1E4978B26740F8F003E63AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E4978A26740F8F003E63AA /* ContentView.swift */; };
+		C1E4978B26740F8F003E63AA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E4978A26740F8F003E63AA /* MainTabView.swift */; };
 		C1E4978D26740F90003E63AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E4978C26740F90003E63AA /* Assets.xcassets */; };
 		C1E4979026740F90003E63AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E4978F26740F90003E63AA /* Preview Assets.xcassets */; };
+		C1E4979926741662003E63AA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E4979826741662003E63AA /* MainView.swift */; };
+		C1E497A126742A0C003E63AA /* GithubConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E497A026742A0C003E63AA /* GithubConstants.swift */; };
+		C1E497A426743242003E63AA /* GithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E497A326743242003E63AA /* GithubService.swift */; };
+		C1E497A92674373D003E63AA /* GithubWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E497A82674373D003E63AA /* GithubWebView.swift */; };
+		C1E497AE267437A5003E63AA /* GithubWebPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E497AD267437A5003E63AA /* GithubWebPresenter.swift */; };
+		C1E497B526743F93003E63AA /* GithubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E497B426743F93003E63AA /* GithubView.swift */; };
+		C1E497B826744F0D003E63AA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E497B726744F0D003E63AA /* LoginView.swift */; };
+		C1E497BB267451E9003E63AA /* GithubConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E497BA267451E9003E63AA /* GithubConfigurator.swift */; };
+		C1E497BE2674DBDC003E63AA /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E497BD2674DBDC003E63AA /* Fonts.swift */; };
+		C1E497C12674EFCC003E63AA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E497C02674EFCC003E63AA /* Colors.swift */; };
+		C1E497CE26751B6A003E63AA /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E497CD26751B6A003E63AA /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C11A377F26752137009E3198 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		C11A378526755029009E3198 /* MainProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProgress.swift; sourceTree = "<group>"; };
+		C11A378826757E1B009E3198 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		C11A378B26758087009E3198 /* BasicCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCollectionCell.swift; sourceTree = "<group>"; };
+		C11A378E26765E1B009E3198 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C11A37912676E580009E3198 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		C11A3794267710F9009E3198 /* AuthPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPickerView.swift; sourceTree = "<group>"; };
 		C1E4978526740F8F003E63AA /* boostCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boostCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E4978826740F8F003E63AA /* boostCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boostCampApp.swift; sourceTree = "<group>"; };
-		C1E4978A26740F8F003E63AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1E4978A26740F8F003E63AA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		C1E4978C26740F90003E63AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1E4978F26740F90003E63AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1E4979126740F90003E63AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E4979826741662003E63AA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C1E497A026742A0C003E63AA /* GithubConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubConstants.swift; sourceTree = "<group>"; };
+		C1E497A326743242003E63AA /* GithubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
+		C1E497A82674373D003E63AA /* GithubWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubWebView.swift; sourceTree = "<group>"; };
+		C1E497AD267437A5003E63AA /* GithubWebPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubWebPresenter.swift; sourceTree = "<group>"; };
+		C1E497B426743F93003E63AA /* GithubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubView.swift; sourceTree = "<group>"; };
+		C1E497B726744F0D003E63AA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C1E497BA267451E9003E63AA /* GithubConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubConfigurator.swift; sourceTree = "<group>"; };
+		C1E497BD2674DBDC003E63AA /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		C1E497C02674EFCC003E63AA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C1E497CD26751B6A003E63AA /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +69,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C11A378226754FD7009E3198 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				C1E4979826741662003E63AA /* MainView.swift */,
+				C11A377F26752137009E3198 /* CarouselView.swift */,
+				C11A378526755029009E3198 /* MainProgress.swift */,
+				C11A37912676E580009E3198 /* StoryView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 		C1E4977C26740F8F003E63AA = {
 			isa = PBXGroup;
 			children = (
@@ -53,10 +100,20 @@
 			isa = PBXGroup;
 			children = (
 				C1E4978826740F8F003E63AA /* boostCampApp.swift */,
-				C1E4978A26740F8F003E63AA /* ContentView.swift */,
+				C1E4978A26740F8F003E63AA /* MainTabView.swift */,
+				C11A378226754FD7009E3198 /* MainView */,
 				C1E4978C26740F90003E63AA /* Assets.xcassets */,
 				C1E4979126740F90003E63AA /* Info.plist */,
 				C1E4978E26740F90003E63AA /* Preview Content */,
+				C1E497AB2674378B003E63AA /* Github */,
+				C1E497B726744F0D003E63AA /* LoginView.swift */,
+				C1E497BD2674DBDC003E63AA /* Fonts.swift */,
+				C1E497C02674EFCC003E63AA /* Colors.swift */,
+				C1E497CD26751B6A003E63AA /* UserDefaults.swift */,
+				C11A378826757E1B009E3198 /* LibraryView.swift */,
+				C11A378B26758087009E3198 /* BasicCollectionCell.swift */,
+				C11A378E26765E1B009E3198 /* ProfileView.swift */,
+				C11A3794267710F9009E3198 /* AuthPickerView.swift */,
 			);
 			path = boostCamp;
 			sourceTree = "<group>";
@@ -67,6 +124,19 @@
 				C1E4978F26740F90003E63AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1E497AB2674378B003E63AA /* Github */ = {
+			isa = PBXGroup;
+			children = (
+				C1E497A326743242003E63AA /* GithubService.swift */,
+				C1E497A026742A0C003E63AA /* GithubConstants.swift */,
+				C1E497A82674373D003E63AA /* GithubWebView.swift */,
+				C1E497AD267437A5003E63AA /* GithubWebPresenter.swift */,
+				C1E497B426743F93003E63AA /* GithubView.swift */,
+				C1E497BA267451E9003E63AA /* GithubConfigurator.swift */,
+			);
+			path = Github;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +208,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1E4978B26740F8F003E63AA /* ContentView.swift in Sources */,
+				C11A378C26758087009E3198 /* BasicCollectionCell.swift in Sources */,
+				C1E497AE267437A5003E63AA /* GithubWebPresenter.swift in Sources */,
+				C1E4978B26740F8F003E63AA /* MainTabView.swift in Sources */,
+				C1E4979926741662003E63AA /* MainView.swift in Sources */,
+				C1E497A92674373D003E63AA /* GithubWebView.swift in Sources */,
+				C11A378026752137009E3198 /* CarouselView.swift in Sources */,
+				C1E497CE26751B6A003E63AA /* UserDefaults.swift in Sources */,
+				C1E497BE2674DBDC003E63AA /* Fonts.swift in Sources */,
+				C1E497A126742A0C003E63AA /* GithubConstants.swift in Sources */,
+				C1E497A426743242003E63AA /* GithubService.swift in Sources */,
+				C11A3795267710F9009E3198 /* AuthPickerView.swift in Sources */,
+				C11A37922676E580009E3198 /* StoryView.swift in Sources */,
+				C11A378F26765E1B009E3198 /* ProfileView.swift in Sources */,
+				C11A378626755029009E3198 /* MainProgress.swift in Sources */,
+				C1E497C12674EFCC003E63AA /* Colors.swift in Sources */,
 				C1E4978926740F8F003E63AA /* boostCampApp.swift in Sources */,
+				C11A378926757E1B009E3198 /* LibraryView.swift in Sources */,
+				C1E497BB267451E9003E63AA /* GithubConfigurator.swift in Sources */,
+				C1E497B826744F0D003E63AA /* LoginView.swift in Sources */,
+				C1E497B526743F93003E63AA /* GithubView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
