@@ -101,7 +101,7 @@ struct MainView: View {
             return
         }
         isRequested.toggle()
-        guard let url = URL(string: "http://91.77.166.143:8080/api/recommendation/?username=\(GithubService.login)&career=ios_dev") else {
+        guard let url = URL(string: "http://91.77.166.143:8080/api/recommendation/?username=\(GithubService.login)&career=\(CareerService.career)") else {
             print("Invalid URL")
             return
         }

@@ -43,9 +43,9 @@ struct LoginView: View {
 
                 VStack {
                     Button(
-                        action: {},
+                        action: checkLink,
                         label: {
-                            Text("Button")
+                            Text("Искать")
                                 .padding()
                                 .foregroundColor(.white)
                                 .font(.text1)
@@ -77,6 +77,16 @@ struct LoginView: View {
                 Spacer()
             }
         }.padding(40)
+    }
+
+    func checkLink() {
+        let check = ["https:", "api.github.com", "github.com", "users", ""]
+        let link = urlString
+        let potentialUsers = link.components(separatedBy: "/").filter {
+            !check.contains($0)
+        }
+        GithubService.login = potentialUsers.first ?? ""
+        destination = .mainTab
     }
 }
 
